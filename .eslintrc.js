@@ -1,6 +1,9 @@
 require('eslint-config-molindo/setupPlugins');
 
 module.exports = {
+  env: {
+    node: true
+  },
   extends: [
     'molindo/typescript',
     'molindo/react',
@@ -8,8 +11,5 @@ module.exports = {
   ],
   rules: {
     'react/react-in-jsx-scope': 'off'
-  },
-  env: {
-    node: true
   }
 };
