@@ -17,6 +17,10 @@ export default async function LocaleLayout({
 }: Props) {
   return (
     <html lang={locale}>
+      <head>
+        <title>next-intl</title>
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+      </head>
       <body>
         <NextIntlServerProvider locale={locale}>
           {children}
