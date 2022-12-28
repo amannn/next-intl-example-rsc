@@ -1690,14 +1690,14 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
 
-next-intl@2.11.0-alpha.4:
-  version "2.11.0-alpha.4"
-  resolved "https://registry.yarnpkg.com/next-intl/-/next-intl-2.11.0-alpha.4.tgz#d384c58f2f2d51f3ca2c5c2d7e28838c574b05b8"
-  integrity sha512-zqB++WeTNufsdIVsCGRJeoM8K1Yg6nyQgCqCtuWtFmkEVpO7JpAxsg/KfSA9ETKs19fu+EzzeWkEGSAEMvxSOw==
+next-intl@2.11.0-alpha.5:
+  version "2.11.0-alpha.5"
+  resolved "https://registry.yarnpkg.com/next-intl/-/next-intl-2.11.0-alpha.5.tgz#90272412dbca2dd2c56ffe14eb6d9cb6e749b876"
+  integrity sha512-bLS2KLTWC3xzOoJLgIxc3NjbPdkLpvAU3dMkwZolzTMnxlUmTP94aOdLyqsajnhM7kyfLSRiE9sVR9I5OhL+/g==
   dependencies:
     accept-language-parser "^1.5.0"
     server-only "0.0.1"
-    use-intl "2.11.0-alpha.2"
+    use-intl "2.10.0-alpha.3"
 
 next@^13.0.5:
   version "13.1.0"
@@ -2360,10 +2360,10 @@ uri-js@^4.2.2:
   dependencies:
     punycode "^2.1.0"
 
-use-intl@2.11.0-alpha.2:
-  version "2.11.0-alpha.2"
-  resolved "https://registry.yarnpkg.com/use-intl/-/use-intl-2.11.0-alpha.2.tgz#1b46baf30e9cbfd39820d17eb61e9813e7b0d81c"
-  integrity sha512-8fIbXplg+1CG1g/cAo/TiayH7lGxDE2DFpLixkX9AUtOOXEIsQ5OzwaQynJgz12qul7D54f9/ywiwfrKl6E8wA==
+use-intl@2.10.0-alpha.3:
+  version "2.10.0-alpha.3"
+  resolved "https://registry.yarnpkg.com/use-intl/-/use-intl-2.10.0-alpha.3.tgz#53b14be7d4af0a827c9359a34d53bf0f935823aa"
+  integrity sha512-3q3B53UMd9wbdbyXsfyIzZs++uRGnl2DELQ+y51/+/E0izj0GStlh20vnHnblotd8elvu1FIAduOT7F1B2CgdQ==
   dependencies:
     "@formatjs/ecma402-abstract" "^1.11.4"
     intl-messageformat "^9.3.18"
