@@ -1690,10 +1690,10 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
 
-next-intl@2.11.0-beta.1:
-  version "2.11.0-beta.1"
-  resolved "https://registry.yarnpkg.com/next-intl/-/next-intl-2.11.0-beta.1.tgz#d566611d8073208e2588742290a274beee05a340"
-  integrity sha512-rq+Y7AfTGWfor9ujOG75x9o19eq4LLx6ev90m+tyqXINJN3b90jHLjhaXfLf4e1UxDtP39YHFpIfHokkl2UJDg==
+next-intl@2.11.0-beta.2:
+  version "2.11.0-beta.2"
+  resolved "https://registry.yarnpkg.com/next-intl/-/next-intl-2.11.0-beta.2.tgz#a0320522e67bff5da2f6be8836bcc1db24ba4812"
+  integrity sha512-E2VO/bTHraopGlireTWjgTzulkPTDSWvZR8SrBvNb28+0bt8VB9KOnuTpxpaxXytM6uMLeCNpRF4lJ0lw+JoPw==
   dependencies:
     accept-language-parser "^1.5.0"
     server-only "0.0.1"
