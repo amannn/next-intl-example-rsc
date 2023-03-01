@@ -11,10 +11,10 @@
   },
   "dependencies": {
     "lodash": "^4.17.21",
-    "next": "^13.0.5",
-    "next-intl": "2.11.0-beta.15",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "next": "13.2.3",
+    "next-intl": "2.11.0-beta.16",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "typescript": "^4.6.3"
   },
   "devDependencies": {
@@ -23,6 +23,6 @@
     "@types/react": "^18.0.23",
     "eslint": "^8.12.0",
     "eslint-config-molindo": "^6.0.0",
-    "eslint-config-next": "^13.0.0"
+    "eslint-config-next": "13.2.3"
   }
 }
