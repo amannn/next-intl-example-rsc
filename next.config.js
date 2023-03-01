@@ -1,3 +1,4 @@
+const ms = require('ms');
 const withNextIntl = require('next-intl/plugin')();
 
 module.exports = withNextIntl({
@@ -7,10 +8,11 @@ module.exports = withNextIntl({
       source: path,
       headers: [
         {
-          // Cache for one day, but allow to send
-          // cached responses for up to 1 week
           key: 'Cache-Control',
-          value: 's-maxage=86400, stale-while-revalidate=604800'
+          value: [
+            `s-maxage=${ms('1d') / 1000}`,
+            `stale-while-revalidate=${ms('1y') / 1000}`
+          ].join(', ')
         }
       ]
     }));
