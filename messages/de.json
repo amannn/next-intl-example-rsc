@@ -1,4 +1,7 @@
 {
+  "Meta": {
+    "title": "next-intl Beispiel"
+  },
   "Index": {
     "title": "Start",
     "description": "Das ist die Startseite."
